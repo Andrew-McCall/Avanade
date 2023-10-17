@@ -2,3 +2,8 @@
 !.gitignore
 
 /Logs
+
+Create some files
+(touch)
+create a .gitignore
+git status
