@@ -1,4 +1,3 @@
 Branching
-git branch feature1
-git checkout feature1
-
+git branch branchName
+git checkout branchName
