@@ -1,0 +1,34 @@
+# Created a copy of github repo
+$ git clone https://github.com/Andrew-McCall/Avanade
+Cloning into 'Avanade'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+# Changed into correct/new folder
+$ cd Avanade/
+
+# Created a file
+$ echo "Miso\nMochi" > GinueaPigNames.txt
+
+# Added file
+$ git add GinueaPigNames.txt
+warning: in the working copy of 'GinueaPigNames.txt', LF will be replaced by CRLF the next time Git touches it
+
+# Commited file
+$ git commit -m "Added fun file"
+[main 83da255] Added fun file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 GinueaPigNames.txt
+
+# Pushed changes back to github
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 300 bytes | 300.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Andrew-McCall/Avanade
+   90df982..83da255  main -> main
