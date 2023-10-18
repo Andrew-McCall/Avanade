@@ -12,4 +12,4 @@ jobs:
       - name: cd
         run: cd Avanade
       - name: ls
-        run: ls -ar
+        run: ls -ar Avanade
