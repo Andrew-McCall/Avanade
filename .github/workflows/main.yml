@@ -8,6 +8,8 @@ jobs:
 
     steps:
       - name: Setup
-        run: git clone https://github.com/Andrew-McCall/Avanade && cd Avanade
+        run: git clone https://github.com/Andrew-McCall/Avanade
+      - name: cd
+        run: cd Avanade
       - name: ls
         run: ls -ar
