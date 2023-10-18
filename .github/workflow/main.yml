@@ -1,0 +1,13 @@
+name: Test
+
+on: [push]
+
+jobs:
+  push_check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Setup
+        run: git clone https://github.com/Andrew-McCall/Avanade && cd Avanade
+      - name: ls
+        run: ls -ar
